@@ -13,7 +13,7 @@
 
 ## Sprint 2
 - [x] Update projectroadmap.md
-- [ ] Write initial code for welcome screen
+- [x] Write initial code for welcome screen
 - [ ] Create menus and price list
 - [ ] Make README.md more helpful
 - [ ] Grant MIT license
