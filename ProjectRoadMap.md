@@ -15,5 +15,5 @@
 - [x] Update projectroadmap.md
 - [x] Write initial code for welcome screen
 - [x] Create menus and price list
-- [ ] Make README.md more helpful
+- [x] Make README.md more helpful
 - [ ] Grant MIT license
