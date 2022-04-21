@@ -16,4 +16,4 @@
 - [x] Write initial code for welcome screen
 - [x] Create menus and price list
 - [x] Make README.md more helpful
-- [ ] Grant MIT license
+- [x] Grant MIT license
