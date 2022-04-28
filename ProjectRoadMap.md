@@ -17,3 +17,6 @@
 - [x] Create menus and price list
 - [x] Make README.md more helpful
 - [x] Grant MIT license
+
+## Sprint 3
+- [x] Create Powerpoint Slide
