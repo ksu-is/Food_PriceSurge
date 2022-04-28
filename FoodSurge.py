@@ -32,6 +32,33 @@ timeMultiplier = {
 is_quitting = False
 print('Welcome to the Food Price Surge Calculator! Press enter to continue')
 input()
+menu = {}
+multiplier = 1
 while is_quitting == False:
     print("Select a restaurant to view prices: \n1. Mcdonalds\n2. Wendys\n3. Chick-Fil-A\n4. Cookout\n5. Quit")
-    selection = input("Select a number from the list provided: ")
+    selection = int(input("Select a number from the list provided: "))
+    hour = int(input("Enter the hour of the day (0-24): "))
+    if selection == 1:
+        menu = mcdonaldsMenu
+    elif selection == 2:
+        menu = wendysMenu
+    elif selection == 3:
+        menu = chickfilaMenu
+    elif selection == 4:
+        menu = cookoutMenu
+    elif selection == 5:
+        break
+    if hour == 12:
+        multiplier = 1.5
+    elif hour == 13:
+        multiplier = 1.5
+    elif hour == 14:
+        multiplier = 1.3
+    elif hour == 18:
+        multiplier = 1.6
+    elif hour == 19:
+        multiplier = 1.6
+    for item, price in menu.items():
+        print(item + ": $" + str(price*multiplier))
+    print("Press Enter to see another menu")
+    input()
