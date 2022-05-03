@@ -20,3 +20,5 @@
 
 ## Sprint 3
 - [x] Create Powerpoint Slide
+- [ ] Complete Code Assignment
+- [ ] Finish powerpoint for presentation
