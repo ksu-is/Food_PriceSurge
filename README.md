@@ -5,3 +5,5 @@ Perhaps this program can be known as "anti happy-hour" because it determines tim
 Input a time for when you are eating out and the program will display prices for the cooresponding times. Currently, I am increasing prices with the program from 12pm to 2pm and 6pm to 8pm.
 
 Depending on which restaurant is chosen, prices will vary and during "anti happy-hour," prices are increased anywhere between multipliers 1.3%-1.6%
+
+Try out the program for yourself and see how much your meal would cost depending on the time you choose to eat.

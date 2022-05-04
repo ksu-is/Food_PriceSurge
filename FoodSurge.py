@@ -22,13 +22,6 @@ cookoutMenu = {
     "Milkshake": 2.99,
     "Quesadilla": 1.49
     }
-timeMultiplier = {
-    12: 1.5,
-    13: 1.5,
-    14: 1.3,
-    18: 1.6,
-    19: 1.6
-}
 is_quitting = False
 print('Welcome to the Food Price Surge Calculator! Press enter to continue')
 input()
@@ -61,6 +54,8 @@ while is_quitting == False:
         multiplier = 1.6
     elif hour == 19:
         multiplier = 1.6
+    elif hour == 20:
+        multiplier = 1.4
     for item, price in menu.items():
         print(item + ": $" + str(price*multiplier))
     print("Press Enter to see another menu")
