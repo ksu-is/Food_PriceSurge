@@ -48,7 +48,10 @@ while is_quitting == False:
         menu = cookoutMenu
     elif selection == 5:
         break
-    if hour == 12:
+    if hour < 10:
+        print("\nSorry this restaurant is closed until 10 AM\n")
+        continue
+    elif hour == 12:
         multiplier = 1.5
     elif hour == 13:
         multiplier = 1.5
